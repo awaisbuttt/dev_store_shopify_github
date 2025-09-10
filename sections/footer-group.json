@@ -11,17 +11,6 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
-    "scma_banner_FRcUhd": {
-      "type": "SCMA-Banner",
-      "name": "SCMA Banner",
-      "settings": {
-        "banner_image": "shopify://shop_images/picture.png",
-        "banner_title": "Elegant Developers",
-        "banner_subtitle": "ONLY WORKING AT FSL",
-        "button_text": "CONTACT US",
-        "button_link": ""
-      }
-    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -41,7 +30,6 @@
     }
   },
   "order": [
-    "scma_banner_FRcUhd",
     "footer"
   ]
 }

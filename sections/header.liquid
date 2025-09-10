@@ -78,7 +78,7 @@
 
 {%- style -%}
   .header {
-    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 1.5rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 1.5rem;
+    padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px 1rem {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px 1rem !important;
   }
 
   .section-header {
@@ -94,10 +94,10 @@
 
   @media screen and (min-width: 990px) {
     .header {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-right: 1.5rem;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-      padding-left: 1.5rem;
+      padding-top: {{ section.settings.padding_top }}px !important;
+      padding-right: 1rem !important;
+      padding-bottom: {{ section.settings.padding_bottom }}px !important;
+      padding-left: 1rem !important;
     }
   }
 {%- endstyle -%}
